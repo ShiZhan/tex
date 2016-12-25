@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --rm -i --net=none -v "$PWD":/documents zhan2016/tex "$@"
