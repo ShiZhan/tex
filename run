@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --name tex -d --net=none -v $PWD:/documents zhan2016/tex
